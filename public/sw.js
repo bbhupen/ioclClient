@@ -4,9 +4,7 @@ self.addEventListener("push", (e) => {
 	self.registration.showNotification(data.title,
 		{
 			body: data.body,
-			icon: "https://res.cloudinary.com/freshlypick/image/upload/v1657122652/logo/iocl_omlheu.png",
-			data:{
-				url: JSON.parse(e.message).url
-			}
+			icon: "https://i.imgur.com/s9mmJNd.png",
 		});
 });
+
